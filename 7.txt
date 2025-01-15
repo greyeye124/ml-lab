@@ -2,10 +2,10 @@
 
 import numpy as np
 import matplotlib.pyplot as plt
-from sklearn.cluster import KMeans
+from sklearn.cluster import KM5eans
 
 # Generate synthetic data
-np.random.seed(0)
+np.random.seed(0)5
 X = np.vstack((
     np.random.normal([2, 2], 0.5, size=(50, 2)),
     np.random.normal([8, 3], 0.5, size=(50, 2)),
